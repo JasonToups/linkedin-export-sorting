@@ -8,10 +8,10 @@ linkedin_urls = set()
 url_to_exclude = 'https://www.linkedin.com/in/jasontoups'
 
 # Source File: 
-source = 'messages-short.csv'
+source = 'messages.csv'
 
 # Output File:
-output = 'linkedin_urls-short.csv'
+output = 'linkedin_urls.csv'
 
 # Open the CSV file
 with open(source, 'r') as f:
