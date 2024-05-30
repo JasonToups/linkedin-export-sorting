@@ -72,6 +72,14 @@ python3 sorted-urlList.py
 
 Now you should see the sorted list of urls in the file `linkedin_urls.csv`
 
+### Stop your Virtual Environment
+
+When you have what you need, stop your Virtual Environment
+
+```shell
+deactivate
+```
+
 ## How to Run after Initial Setup
 
 If you would like to run this project again, then put your updated messages list in the root directory.
