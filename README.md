@@ -6,6 +6,26 @@ Then you can take that list of profile URLs and use something like [Phantombuste
 
 ## Setting up this Project
 
+### Get your LinkedIn Profile URL
+
+Go to [LinkedIn](https://www.linkedin.com) and view your **Profile**.
+
+_Copy_ the URL.
+
+In this Project, _open_ the file `sorted-urlList.py`.
+
+_Update_ the variable for `profile_url` and **save** the file.
+
+```python
+import pandas as pd
+
+source = 'messages.csv'
+output = 'linkedin_urls.csv'
+profile_url = 'https://www.linkedin.com/in/jasontoups'
+```
+
+> This will remove your Profile URL from the sorted output list.
+
 ### Export your Messages Data from LinkedIn
 
 To export your messages data from LinkedIn, follow these steps:
@@ -30,7 +50,7 @@ You will receive an email when your messages.csv is ready to download.
 
 Download the file and place it in this project.
 
-### Install Pandas & Dependencies
+### Install Dependencies
 
 You will need to install several packages, and have `Python3` and `PIP` installed.
 
