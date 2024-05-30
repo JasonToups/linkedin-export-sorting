@@ -36,6 +36,10 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
+# ipynb files
+*.ipynb
+
+
 # Unit test / coverage reports
 htmlcov/
 .tox/
