@@ -30,41 +30,59 @@ You will receive an email when your messages.csv is ready to download.
 
 Download the file and place it in this project.
 
-## Install Pandas & Dependencies
+### Install Pandas & Dependencies
 
 You will need to install several packages, and have `Python3` and `PIP` installed.
 
-## Use a Virtual Environment to Run the Project
+### Use a Virtual Environment to Run the Project
 
 Creating a **virtual environment** _isolates your package installations from the system Python environment_, which will help avoid system-wide issues.
 
-### Create a Virtual Environment:
+#### Create a Virtual Environment:
 
 ```shell
 python3 -m venv hire-me
 ```
 
-### Activate the Virtual Environment:
+#### Activate the Virtual Environment:
 
 ```shell
 source hire-me/bin/activate
 ```
 
-### Upgrade pip and Install Packages:
+#### Upgrade pip and Install Packages:
 
 ```shell
 pip install --upgrade pip
 ```
 
-### Install Pandas in your Virtual Environment
+#### Install Pandas in your Virtual Environment
 
 ```shell
 python3 -m pip install pandas
 ```
 
-## Execute the sorted-urlList.py Script
+### Execute the sorted-urlList.py Script
 
 Now that you have your Virtual Environment setup, you can execute the Python Script to get your date-sorted URL list from your messages, starting with your latest message.
+
+```shell
+python3 sorted-urlList.py
+```
+
+Now you should see the sorted list of urls in the file `linkedin_urls.csv`
+
+## How to Run after Initial Setup
+
+If you would like to run this project again, then put your updated messages list in the root directory.
+
+**Create a Virtual Environment:**
+
+```shell
+python3 -m venv hire-me
+```
+
+**Execute the sorted-urlList.py Script**
 
 ```shell
 python3 sorted-urlList.py
