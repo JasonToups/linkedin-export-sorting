@@ -164,3 +164,12 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+## Custom Created Ignores
+
+# Do not checkin your personalized linkedin_urls.csv and messages.csv to the public github repo!
+**/messages.csv
+**/linkedin_urls.csv
+
+# Ignore virtual environment
+hire-me/
